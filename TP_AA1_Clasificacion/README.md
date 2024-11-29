@@ -4,7 +4,7 @@ Este proyecto predice si lloverá o no al día siguiente utilizando un modelo de
 
 ## Requisitos previos
 
-- **Docker** debe estar instalado y funcionando en tu máquina.
+- **Docker** debe estar instalado y funcionando en tu máquina (si tenés Windows: https://docs.docker.com/desktop/setup/install/windows-install/).
 - Tener acceso a una terminal o consola de comandos.
 
 ## 1. Clonar el repositorio
