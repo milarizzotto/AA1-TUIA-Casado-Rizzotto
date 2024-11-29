@@ -1,0 +1,6 @@
+Date,Location,MinTemp,MaxTemp,Rainfall,Evaporation,Sunshine,WindGustDir,WindGustSpeed,WindDir9am,WindDir3pm,WindSpeed9am,WindSpeed3pm,Humidity9am,Humidity3pm,Pressure9am,Pressure3pm,Cloud9am,Cloud3pm,Temp9am,Temp3pm,RainToday
+2009-10-25,Mildura,12.1,20.7,0.0,9.0,12.2,S,52.0,S,S,28.0,28.0,58.0,28.0,1020.4,1019.6,1.0,2.0,14.2,19.0,No
+2014-11-12,Penrith,15.5,26.1,0.0,,,E,26.0,E,E,6.0,7.0,65.0,44.0,,,,,18.9,25.3,No
+2015-09-18,Newcastle,12.5,19.2,5.6,,,,,SE,,28.0,,56.0,,,,6.0,,18.0,,Yes
+2013-09-07,Ballarat,1.7,15.4,0.0,,,WSW,43.0,WNW,SW,15.0,17.0,98.0,85.0,1025.7,1025.2,,8.0,9.9,11.7,No
+2010-10-05,PearceRAAF,5.7,23.2,0.0,,10.2,SW,52.0,S,SW,22.0,37.0,59.0,42.0,1023.0,1020.7,4.0,3.0,17.2,22.3,No
