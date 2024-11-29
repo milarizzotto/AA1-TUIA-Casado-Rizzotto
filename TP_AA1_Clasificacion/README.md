@@ -13,14 +13,14 @@ Primero, clona este repositorio en tu máquina local utilizando el siguiente com
 
 git clone https://url-del-repositorio.git
 
-##2. Construir la imagen Docker
+## 2. Construir la imagen Docker
 Accede al directorio donde clonaste el repositorio y construye la imagen Docker con el siguiente comando:
 
 docker build -t tp-aa1-casado-rizzotto ./docker
 
 Este comando creará una imagen Docker llamada tp-aa1-casado-rizzotto utilizando el Dockerfile ubicado en la carpeta ./docker.
 
-##3. Ejecutar el contenedor Docker
+## 3. Ejecutar el contenedor Docker
 Una vez que la imagen Docker esté construida, ejecuta el contenedor Docker con el siguiente comando:
 
 docker run -it --rm -v "TU_UBICACION_ABSOLUTA_DE_CARPETA_FILES:/files" tp-aa1-casado-rizzotto bash
@@ -33,13 +33,13 @@ Por ejemplo, si tienes el archivo input.csv en la carpeta C:/proyecto/files, el 
 docker run -it --rm -v "C:/proyecto/files:/files" tp-aa1-casado-rizzotto bash
 Esto montará la carpeta local files dentro del contenedor y te permitirá acceder a ella dentro del contenedor Docker.
 
-##4. Ejecutar la inferencia
+## 4. Ejecutar la inferencia
 Una vez dentro del contenedor Docker, ejecuta el siguiente comando para realizar las predicciones:
 
 python inference.py
 Este comando procesará el archivo input.csv en la carpeta /files y generará un archivo de salida llamado output.csv con las predicciones del modelo.
 
-##5. Archivos de entrada y salida
+## 5. Archivos de entrada y salida
 input.csv
 El archivo input.csv debe contener los datos de entrada para el modelo y debe ser colocado en la carpeta que montaste en el contenedor (files). Un archivo input.csv de ejemplo se provee en el repositorio.
 
