@@ -11,7 +11,7 @@ Este proyecto predice si lloverá o no al día siguiente utilizando un modelo de
 
 Primero, clona este repositorio en tu máquina local utilizando el siguiente comando:
 
-git clone https://url-del-repositorio.git
+git clone https://github.com/milarizzotto/AA1-TUIA-Casado-Rizzotto.git
 
 ## 2. Construir la imagen Docker
 Accede al directorio donde clonaste el repositorio y construye la imagen Docker con el siguiente comando:
