@@ -25,12 +25,12 @@ Una vez que la imagen Docker esté construida, ejecuta el contenedor Docker con 
 
 docker run -it --rm -v "TU_UBICACION_ABSOLUTA_DE_CARPETA_FILES:/files" tp-aa1-casado-rizzotto bash
 
-###Importante:
-Reemplaza "TU_UBICACION_ABSOLUTA_DE_CARPETA_FILES" con la ruta absoluta de la carpeta donde se encuentra el archivo input.csv en tu máquina local.
+### Importante:
+Reemplaza "TU_UBICACION_ABSOLUTA_DE_CARPETA_FILES" con la ruta absoluta de la carpeta files en tu máquina local.
 
-Por ejemplo, si tienes el archivo input.csv en la carpeta C:/proyecto/files, el comando sería:
+Por ejemplo, si tienes la carpeta files en la carpeta C:/Users/tuUsuario/OneDrive/Escritorio/TP_AA1_Clasificacion, el comando sería:
 
-docker run -it --rm -v "C:/proyecto/files:/files" tp-aa1-casado-rizzotto bash
+docker run -it --rm -v "C:/Users/tuUsuario/OneDrive/Escritorio/TP_AA1_Clasificacion/files:/files" tp-aa1-casado-rizzotto bash
 Esto montará la carpeta local files dentro del contenedor y te permitirá acceder a ella dentro del contenedor Docker.
 
 ## 4. Ejecutar la inferencia
