@@ -48,10 +48,10 @@ El archivo output.csv será generado en la misma carpeta files después de ejecu
 
 Ejemplo de cómo lucirá el archivo output.csv:
 
-Rain_Prediction
-0
-1
-0
-1
-...
+Rain_Prediction  
+0  
+1  
+0  
+1  
+...  
 Cada fila del archivo output.csv corresponderá a una predicción para cada entrada en el archivo input.csv.
