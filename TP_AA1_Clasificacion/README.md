@@ -14,7 +14,9 @@ Primero, clona este repositorio en tu máquina local utilizando el siguiente com
 git clone https://github.com/milarizzotto/AA1-TUIA-Casado-Rizzotto.git
 
 ## 2. Construir la imagen Docker
-Accede al directorio donde clonaste el repositorio y construye la imagen Docker con el siguiente comando:
+Accede al directorio donde hayas clonado este repositorio y accedé a la carpeta 'TP_AA1_Clasificacion'
+
+Desde esa posición, construye la imagen Docker con el siguiente comando:
 
 docker build -t tp-aa1-casado-rizzotto ./docker
 
